@@ -17,3 +17,5 @@ conn.connect((err)=>{
         console.log('Connected to database Successfully', DB_NAME);
     }
 })
+
+module.exports = conn;
